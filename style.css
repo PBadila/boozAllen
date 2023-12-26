@@ -179,6 +179,9 @@ body{
 .arrowAboutLeft{
     margin-right:30px;  
 }
+.arrowAboutLeft:hover, .arrowAboutRight:hover{
+    cursor:pointer;
+}
 #about1{
     width:90%;
     height:100vh;
@@ -297,6 +300,7 @@ body{
   
     
 }
+
 .leftSideProj{
     width:40%;
     height:100vh;
