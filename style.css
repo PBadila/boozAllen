@@ -1,6 +1,7 @@
 :root{
-    --primary-color:#4d148c;
-    --secondary-color:#FF6600;
+    --primary-color:#01807e;
+    --secondary-color:#263846;
+    --tertiary-color:#ddfa39;
   
    
     --main-font:font-family: 'Assistant', sans-serif;
@@ -64,7 +65,7 @@ body{
 
 .button{
     background-color: var(--secondary-color);
-    color:white;
+    color:var(--tertiary-color);
     border-radius: 5px ;
   
     width:75px;
@@ -340,7 +341,7 @@ top:55%;
     width:200px;
     height:100px;
     background-color:var(--secondary-color);
-    color:white;
+    color:var(--tertiary-color);
     border:1px solid var(--primary-color);
     margin-right:20px;
     text-align:center;
@@ -362,6 +363,7 @@ top:55%;
     width:125px;
     position: relative;
     top:-60%;
+    border: 1.7px solid var(--secondary-color);
 
 }
 
@@ -400,18 +402,18 @@ top:55%;
     color:white;
 }
 .linkBox a:visited{
-    color:var(--secondary-color);
+    color:var(--tertiary-color);
 }
 .linkBox a:hover{
-    color:var(--secondary-color);
+    color:var(--tertiary-color);
 }
 .linkBox a:active{
-    color:var(--secondary-color);
+    color:var(--tertiary-color);
 }
 
 .codeImgLink1{
-    color:var(--secondary-color);
-    text-decoration:underline 1px var(--secondary-color);
+    color:var(--tertiary-color);
+    text-decoration:underline 1px var(--tertiary-color);
 }
 
 .linkDiv{
@@ -430,13 +432,13 @@ top:55%;
     color:white;
 }
 .linkDiv a:visited{
-    color:var(--secondary-color);
+    color:var(--tertiary-color);
 }
 .linkDiv a:hover{
-    color:var(--secondary-color);
+    color:var(--tertiary-color);
 }
 .linkDiv a:active{
-    color:var(--secondary-color);
+    color:var(--tertiary-color);
 }
 .projectImgPopUp{
     display:none;
