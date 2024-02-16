@@ -402,18 +402,18 @@ top:55%;
     color:white;
 }
 .linkBox a:visited{
-    color:var(--tertiary-color);
+    color:white;
 }
 .linkBox a:hover{
-    color:var(--tertiary-color);
+    color:white;
 }
 .linkBox a:active{
-    color:var(--tertiary-color);
+    color:white;
 }
 
 .codeImgLink1{
-    color:var(--tertiary-color);
-    text-decoration:underline 1px var(--tertiary-color);
+    color:white;
+    text-decoration:underline 1px white;
 }
 
 .linkDiv{
@@ -432,13 +432,13 @@ top:55%;
     color:white;
 }
 .linkDiv a:visited{
-    color:var(--tertiary-color);
+    color:white;
 }
 .linkDiv a:hover{
-    color:var(--tertiary-color);
+    color:white;
 }
 .linkDiv a:active{
-    color:var(--tertiary-color);
+    color:white;
 }
 .projectImgPopUp{
     display:none;
